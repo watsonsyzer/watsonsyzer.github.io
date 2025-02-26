@@ -34,8 +34,22 @@ ul {
 li {
     background: #eee;
     margin: 10px 0;
-    padding: 10px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+li img {
+    height: 100px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.project-details {
+    flex: 1;
 }
 
 a {
